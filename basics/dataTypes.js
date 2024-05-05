@@ -1,4 +1,4 @@
-let a = "hello"
+let a = "hello world"
 console.log(typeof(a))   //string
 
 let b = 12
@@ -11,4 +11,5 @@ let d = null
 console.log(typeof(d))   // object
 
 let e ;
-console.log(typeof(e))   // undefined
+console.log(typeof(e))   // undefined 
+ 
