@@ -26,3 +26,10 @@ let num2 = 12
 let newNum2 = String(num2)       // by this we can change a number to string
 console.log(newNum2)
 console.log(typeof(newNum2))  
+
+
+
+
+                           //// OPERATIONS ////
+
+
