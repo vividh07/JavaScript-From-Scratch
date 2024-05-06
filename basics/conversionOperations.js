@@ -33,3 +33,15 @@ console.log(typeof(newNum2))
                            //// OPERATIONS ////
 
 
+let value = 3
+let negValue = -value     // to change the positive or negative sign of a value
+console.log(negValue)
+
+console.log("1"+2)
+console.log(1+"2")
+console.log("1"+2+2)
+console.log(1+2+"2")
+
+
+console.log(true)
+console.log(+true)
