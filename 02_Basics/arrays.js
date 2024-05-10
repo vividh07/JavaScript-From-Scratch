@@ -47,6 +47,9 @@ console.log(array);
 array.slice(0,3)  // this will give value form index value 0 to 2 only
 console.log(array)
 
-array.splice(0,5)  // this will give array from index value 0 to 5 
+const newArray = array.splice(0,5)  // this will give array from index value 0 to 5 
+
 console.log(array);
+
+console.log(newArray)
 
