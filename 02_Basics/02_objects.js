@@ -26,3 +26,18 @@ const obj2 = {
 const obj3 = {...obj1, ...obj2}  // good option
 console.log(obj3);
 
+
+
+
+// De - structure of a object
+
+
+const course ={
+    cousreName : "js in hindi",
+    price : 999,
+    courseInstructor : "hitesh"
+}
+
+const {courseInstructor} = course
+ console.log(courseInstructor)
+
