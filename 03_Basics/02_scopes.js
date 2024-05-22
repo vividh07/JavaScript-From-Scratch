@@ -16,3 +16,17 @@ console.log(c)    // this will print because var is a globally defined variable
 
 // const value cannot be changed or redeclared at any time 
  
+
+// nested scope
+
+ function one(){
+    const username = "xyz"
+    function two(){
+        const user = "abc"
+
+    }
+    //console.log(user)    // this will not work because parent function cannot access child's variable
+    two()
+
+ }
+ console.log(one())
