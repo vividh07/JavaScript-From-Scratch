@@ -20,3 +20,15 @@ const abc = ()=>{
 }
 
 abc()
+
+const add = (num1,num2) =>{
+   return num1+num2
+}
+
+console.log(add(2,4));
+
+// Implicit arrow function
+
+const addNew = (num3,num4) => num3 + num4
+
+console.log(addNew(4,6))
