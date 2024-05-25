@@ -14,3 +14,16 @@ if(money > 1000){
 else{
   console.log("you are poor");
 }
+
+// is else-if condition
+
+const power = 2000
+if(power === 200){
+  console.log("you loose");
+}
+else if(power <= 1000){
+  console.log("your score is medium");
+}
+else if(power===2000){
+  console.log("you wins");
+}
