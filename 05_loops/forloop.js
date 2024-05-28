@@ -26,3 +26,13 @@ for(i=0;i<3;i++){
         console.log(`inner loop ${j} and inner loop ${i}`); // we can access outer loop value because we can access parent value in child scope but cant use child value in parent scope
     }
 }
+
+// loop on a array
+
+const hero = ["flash","ironman","superman"]
+
+for(i=0;i<hero.length;i++)
+    {
+        const newHero = hero[i]
+        console.log(newHero);
+    }
