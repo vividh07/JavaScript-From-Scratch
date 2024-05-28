@@ -22,3 +22,11 @@ switch (month) {
         console.log("no value")
         break;
 }
+
+// ternary operator
+
+const age = 19
+
+const result = (age >= 18) ? "you are allowed to vote":"you are not allowed to vote";
+
+console.log(result);
