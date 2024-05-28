@@ -20,6 +20,9 @@ for(var a= 0; a<10; a++){
 
 // // loop inside a loop 
 
-// for(i=0;i<10;i++){
-//     for()
-// }
+for(i=0;i<3;i++){
+    console.log(`outer loop ${i}`);
+    for(j=0;j<3;j++){
+        console.log(`inner loop ${j} and inner loop ${i}`); // we can access outer loop value because we can access parent value in child scope but cant use child value in parent scope
+    }
+}
