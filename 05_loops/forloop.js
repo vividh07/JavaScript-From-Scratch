@@ -36,3 +36,5 @@ for(i=0;i<hero.length;i++)
         const newHero = hero[i]
         console.log(newHero);
     }
+
+
