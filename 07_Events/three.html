@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>hello world</h1>
+    <button id="start">start</button>
+    <button id="stop">stop</button>
+
+    <script>
+        // const sayDate = function(){
+            //     console.log("vividh",Date.now())
+            // }
+            
+            // setInterval(sayDate,1000)
+            
+            let end;
+          const change =function(){ document.querySelector('h1').innerHTML="i am changed"
+    }
+           document.querySelector('#start')
+            .addEventListener('click',function(){
+
+              end =   setInterval(change,3000); 
+    
+            })
+
+            document.querySelector('#stop').addEventListener('click',function(){
+                clearInterval(end)
+            })
+
+    </script>
+</body>
+</html>
