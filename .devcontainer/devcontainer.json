@@ -4,6 +4,7 @@
 		"ghcr.io/devcontainers-contrib/features/node-asdf:0": {}
 	},
 	"customizations": {
+		
 		"vscode": {
 			"extensions": [
 				"ritwickdey.LiveServer"
